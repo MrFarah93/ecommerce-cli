@@ -14,13 +14,13 @@ def add_to_cart(product_id, quantity):
     # Implement logic to add product_id with specified quantity to the cart
     click.echo(f"Added {quantity} units of product {product_id} to the cart.")
 
-# @cli.command()
-# @click.argument('product_id')
-# @click.argument('new_quantity', type=int)
-# def update_quantity(product_id, new_quantity):
-#     """Update quantities in the cart."""
-#     # Implement logic to update product_id with new_quantity in the cart
-#     click.echo(f"Updated quantity of product {product_id} to {new_quantity}.")
+@cli.command()
+@click.argument('product_id')
+@click.argument('new_quantity', type=int)
+def update_quantity(product_id, new_quantity):
+    """Update quantities in the cart."""
+    # Implement logic to update product_id with new_quantity in the cart
+    click.echo(f"Updated quantity of product {product_id} to {new_quantity}.")
 
 # @cli.command()
 # def calculate_total():
