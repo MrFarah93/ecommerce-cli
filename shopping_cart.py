@@ -23,3 +23,14 @@ class ShoppingCart:
             else:
                 print(f"Price not found for product {product_id}.")
         return total_price
+    
+if __name__ == "__main__":
+    cart = ShoppingCart()
+
+    # Example usage
+    cart.add_to_cart('123', 2)
+    cart.add_to_cart('456', 1)
+    cart.update_quantity('123', 3)
+
+    total_price = cart.calculate_total_price()
+    print(f"Total price: ${total_price:.2f}")
