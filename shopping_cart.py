@@ -8,3 +8,9 @@ class ShoppingCart:
             self.cart[product_id] += quantity
         else:
             self.cart[product_id] = quantity
+    
+    def update_quantity(self, product_id, new_quantity):
+        if product_id in self.cart:
+            self.cart[product_id] = new_quantity
+        else:
+            print(f"Product {product_id} not found in cart.")
