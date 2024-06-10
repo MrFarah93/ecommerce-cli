@@ -22,12 +22,12 @@ def update_quantity(product_id, new_quantity):
     # Implement logic to update product_id with new_quantity in the cart
     click.echo(f"Updated quantity of product {product_id} to {new_quantity}.")
 
-# @cli.command()
-# def calculate_total():
-#     """Calculate total price."""
-#     # Implement logic to calculate total price based on cart contents
-#     total_price = 42.0  # Replace with actual calculation
-#     click.echo(f"Total price: ${total_price:.2f}")
+@cli.command()
+def calculate_total():
+    """Calculate total price."""
+    # Implement logic to calculate total price based on cart contents
+    total_price = 42.0  # Replace with actual calculation
+    click.echo(f"Total price: ${total_price:.2f}")
 
-# if __name__ == "__main__":
-#     cli()
+if __name__ == "__main__":
+    cli()
