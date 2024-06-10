@@ -14,3 +14,12 @@ class ShoppingCart:
             self.cart[product_id] = new_quantity
         else:
             print(f"Product {product_id} not found in cart.")
+    
+    def calculate_total_price(self):
+        total_price = 0.0
+        for product_id, quantity in self.cart.items():
+            if product_id in self.product_prices:
+                total_price += self.product_prices[product_id] * quantity
+            else:
+                print(f"Price not found for product {product_id}.")
+        return total_price
