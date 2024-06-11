@@ -23,4 +23,7 @@ Follow the prompts to choose an action from the menu and provide any necessary i
 
 For actions that require user input (e.g., registering, logging in, adding products), follow the instructions provided by the CLI.
 
-##
+## Technologies Used
+Python
+
+## Contribution
