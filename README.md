@@ -9,6 +9,11 @@ Product Management: Products can be listed, and users can view details and add t
 Order Management: Users can place orders, view their order history, and cancel pending orders.
 Admin Functionality: Admin users can add new products to the database.
 
+## Objectives
+1. Efficiency: Simplify e-commerce management for small businesses.
+2. Customization: Allow developers to extend features or integrate the CLI into existing workflows.
+
+
 ## Installation
 Clone the repository:
 
