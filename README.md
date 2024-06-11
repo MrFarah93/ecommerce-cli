@@ -32,3 +32,13 @@ For actions that require user input (e.g., registering, logging in, adding produ
 Python
 
 ## Contribution
+Contributions are welcome! If you find a bug or have a feature request, please open an issue. Pull requests are also appreciated.
+
+## License 
+This project was licensed by :
+Ann Achoki
+Abdifatar Farah
+Mustafa Adan
+Virginia Gichira
+Wilson Gitonga
+
