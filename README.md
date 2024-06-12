@@ -21,9 +21,13 @@ Clone the repository:[Link to Repository](https://github.com/achoclate/ecommerce
 ## Navigate to the project directory:
 
 ## Install dependencies:
+pipenv install
+pipenv shell
+pipenv install sqlalchemy
+
 
 ## Usage
-Run: python ecommerce.py
+Run:python ecommerce/main.py
 
 Follow the prompts to choose an action from the menu and provide any necessary inputs.
 
