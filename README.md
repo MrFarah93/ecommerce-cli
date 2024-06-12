@@ -49,7 +49,8 @@ Follow the prompts to choose an action from the menu and provide any necessary i
 For actions that require user input (e.g., registering, logging in, adding products), follow the instructions provided by the CLI.
 
 ## Technologies Used
-Python
+- Python
+- SQLite
 
 ## Contribution
 Contributions are welcome! If you find a bug or have a feature request, please open an issue. Pull requests are also appreciated.
