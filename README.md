@@ -15,7 +15,8 @@ Admin Functionality: Admin users can add new products to the database.
 
 
 ## Installation
-Clone the repository:
+Clone the repository:[Link to Repository](https://github.com/your-username/your-repository)
+
 
 ## Navigate to the project directory:
 
