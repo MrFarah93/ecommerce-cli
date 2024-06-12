@@ -3,11 +3,25 @@
 ## Overview
 This project is a command-line interface (CLI) application for managing an e-commerce platform. It allows users to perform various actions such as registering, logging in, listing products, adding products to cart, placing orders, and more, all from the terminal.
 
+## Project Structure
+ecommerce-cli
+├── ecommerce
+│   ├── _init_.py
+│   ├── main.py
+│   ├── models.py
+│   └── utils
+│       ├── _init_.py
+│       ├── db.py
+│       └── logger.py
+├── Pipfile
+├── README.md
+└── .gitignore
+
 ## Features
-User Authentication: Users can register with a username and password, and then log in and log out securely.
-Product Management: Products can be listed, and users can view details and add them to their cart.
-Order Management: Users can place orders, view their order history, and cancel pending orders.
-Admin Functionality: Admin users can add new products to the database.
+- User Authentication: Users can register with a username and password, and then log in and log out securely.
+- Product Management: Products can be listed, and users can view details and add them to their cart.
+- Order Management: Users can place orders, view their order history, and update order status.
+- Admin Functionality: Admin users can add new products to the database.
 
 ## Objectives
 1. Efficiency: Simplify e-commerce management for small businesses.
@@ -18,7 +32,8 @@ Admin Functionality: Admin users can add new products to the database.
 Clone the repository:[Link to Repository](https://github.com/achoclate/ecommerce-cli)
 
 
-## Navigate to the project directory:
+## Navigate to the project directory: 
+cd ecommerce-cli
 
 ## Install dependencies:
 - pipenv install
@@ -41,9 +56,9 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 
 ## License 
 This project was licensed by :
-Ann Achoki
-Abdifatar Farah
-Mustafa Adan
-Virginia Gichira
-Wilson Gitonga
+- Ann Achoki
+- Abdifatar Farah
+- Mustafa Adan
+- Virginia Gichira
+- Wilson Gitonga
 
