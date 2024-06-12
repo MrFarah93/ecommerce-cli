@@ -22,7 +22,7 @@ Clone the repository:
 ## Install dependencies:
 
 ## Usage
-Run the ecommerce.py script:
+Run: python ecommerce.py
 
 Follow the prompts to choose an action from the menu and provide any necessary inputs.
 
