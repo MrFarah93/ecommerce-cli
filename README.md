@@ -15,7 +15,7 @@ Admin Functionality: Admin users can add new products to the database.
 
 
 ## Installation
-Clone the repository:[Link to Repository](https://github.com/your-username/your-repository)
+Clone the repository:[Link to Repository](https://github.com/achoclate/ecommerce-cli)
 
 
 ## Navigate to the project directory:
